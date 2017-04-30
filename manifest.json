@@ -1,0 +1,19 @@
+{
+   "author": "nswbmw",
+   "content_scripts": [ {
+      "js": [ "kibana_requestId_link.js" ],
+      "matches": [ "http://kibana.shimo.run/*" ],
+      "all_frames": true,
+      "run_at": "document_end"
+   } ],
+   "icons": {
+      "32": "icons/icon-32.png",
+      "48": "icons/icon-48.png",
+      "64": "icons/icon-64.png",
+      "128": "icons/icon-128.png"
+   },
+   "description": "Add kibana requestId link",
+   "manifest_version": 2,
+   "name": "Kibana requestId link",
+   "version": "1.0.0"
+}
