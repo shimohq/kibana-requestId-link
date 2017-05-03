@@ -1,7 +1,7 @@
 {
    "author": "nswbmw",
    "content_scripts": [ {
-      "js": [ "kibana_requestId_link.js" ],
+      "js": [ "moment.js", "kibana_requestId_link.js" ],
       "matches": [ "http://kibana.shimo.run/*" ],
       "all_frames": true,
       "run_at": "document_end"
