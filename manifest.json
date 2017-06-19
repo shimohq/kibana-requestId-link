@@ -15,5 +15,5 @@
    "description": "Add kibana requestId link",
    "manifest_version": 2,
    "name": "Kibana requestId link",
-   "version": "1.0.0"
+   "version": "1.1.0"
 }
