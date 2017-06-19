@@ -37,5 +37,9 @@
         item.innerHTML = `<a href="${url}" target="_blank">${item.innerText}</a>`.replace('&amp;', '&');
       }
     });
+    [].slice.call(document.querySelectorAll('[title=fn].doc-viewer-field')).forEach(function (item) {
+      var fnItem = item.parentElement.children[2].children[0];
+      fnItem.innerHTML = `<mark>${fnItem.innerText}</mark>`;
+    });
   }
 })();
